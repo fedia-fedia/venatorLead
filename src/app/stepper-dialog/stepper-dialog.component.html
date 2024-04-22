@@ -1,0 +1,123 @@
+<div class="header">
+    <button mat-icon-button style="margin-left: 550px;" matDialogClose>
+        <mat-icon> close </mat-icon>
+    </button>
+    <h1 style="font-size: 30px; margin-top: -40px; font-family: kadwa; text-align: center;"> Add Seats ! </h1>
+</div>
+
+<hr style="width: 600px; margin-top: -5px;">
+
+<mat-horizontal-stepper>
+
+    <!-- Step 1 -->
+    <mat-step label="Company Info">
+        <mat-dialog-content style="margin-top: -10px;">
+            <div style="margin-top: 10px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Street address </label>
+                <input type="streetaddress" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your street address"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> City </label>
+                <input type="city" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your city"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Postal Code </label>
+                <input type="postalcode" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your postal code"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;">  Place of registration </label>
+                <input type="place" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your place of registration"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Company name </label>
+                <input type="companyname" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your company name"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Tax ID number </label>
+                <input type="taxid" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter tax ID number"/>
+            </div>  
+              
+            <div style="margin-top: 30px;">
+                <button mat-raised-button style="border: 1px solid #FB6901; color: #FB6901; border-radius: 45px; margin-left: 100px; font-family: kadwa; font-size: 15px;" matDialogClose> Cancel </button>
+                <button mat-raised-button style="background-color: #FB6901; color: white; border-radius: 45px; margin-left: 100px; font-family: kadwa; font-size: 15px;" matStepperNext> Next </button>
+            </div>   
+        </mat-dialog-content> 
+    </mat-step>
+    <!-- Step 1 -->
+
+
+    <!-- Step 2 -->
+    <mat-step label="Seat Info">
+        <mat-dialog-content style="margin-top: -10px;">
+            <div style="margin-top: 10px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Street address </label>
+                <input type="streetaddress" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your street address"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> City </label>
+                <input type="city" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your city"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Postal Code </label>
+                <input type="postalcode" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your postal code"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;">  Place of registration </label>
+                <input type="place" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your place of registration"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Company name </label>
+                <input type="companyname" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your company name"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Tax ID number </label>
+                <input type="taxid" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter tax ID number"/>
+            </div>  
+        
+            <div style="margin-top: 30px;">
+                <button mat-raised-button style="border: 1px solid #FB6901; color: #FB6901; border-radius: 45px; margin-left: 100px; font-family: kadwa; font-size: 15px;" matStepperPrevious> Back </button>
+                <button mat-raised-button style="background-color: #FB6901; color: white; border-radius: 45px; margin-left: 100px; font-family: kadwa; font-size: 15px;" matStepperNext> Next </button>
+            </div>   
+        </mat-dialog-content> 
+    </mat-step>
+    <!-- Step 2 -->
+
+    <!-- Step 3 -->
+    <mat-step label="Integrations">
+        <mat-dialog-content style="margin-top: -10px;">
+            <div style="margin-top: 10px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Street address </label>
+                <input type="streetaddress" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your street address"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> City </label>
+                <input type="city" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your city"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Postal Code </label>
+                <input type="postalcode" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your postal code"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;">  Place of registration </label>
+                <input type="place" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your place of registration"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Company name </label>
+                <input type="companyname" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter your company name"/>
+            </div>
+            <div style="margin-top: 20px;">
+                <label style="font-family: kadwa; font-size: 20px; color: black; margin-bottom: 5px;"> Tax ID number </label>
+                <input type="taxid" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 450px" placeholder="Enter tax ID number"/>
+            </div>  
+        
+            <div style="margin-top: 30px;">
+                <button mat-raised-button style="border: 1px solid #FB6901; color: #FB6901; border-radius: 45px; margin-left: 100px; font-family: kadwa; font-size: 15px;" matStepperPrevious> Back </button>
+                <button mat-raised-button style="background-color: #FB6901; color: white; border-radius: 45px; margin-left: 100px; font-family: kadwa; font-size: 15px;" matStepperNext> Next </button>
+            </div>   
+        </mat-dialog-content> 
+    </mat-step>
+    <!-- Step 3 -->
+
+
+
+  </mat-horizontal-stepper>

@@ -1,0 +1,35 @@
+<div class="card1" style="max-width: 1350px; height: 630px; background-color: #5B666B;">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card-body" style="margin-left: 150px; background-color: rgb(255, 255, 255); border-radius: 39px; width: 430px; height: 310px; margin-top: 150px; border: 1px solid #FB6701;">
+            <p class="card-text text-dark" style="font-family: kadwa; font-size: 40px; padding-top: 40px; margin-left: 30px;">
+              Reset Password 
+            </p>
+  
+          <form [formGroup]="form" (submit)="submit()">
+            <div class="form-outline" style="margin-top: 40px;">
+              <input formControlName="password" type="password" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 380px; margin-left: 28px;" placeholder="New password"/>
+              <img src="./assets/photos/padlock.png" alt="icon" style="width: 20px; margin-top: -70px; margin-left: 370px;">
+            </div>
+
+            <div class="form-outline" style="margin-top: 15px;">
+                <input formControlName="password_confirm" type="password" class="form-control form-control-lg rounded" style="font-family: kadwa; height: 50px; width: 380px; margin-left: 28px;" placeholder="Confirm password"/>
+                <img src="./assets/photos/padlock.png" alt="icon" style="width: 20px; margin-top: -70px; margin-left: 370px;">
+            </div>
+          
+              <div class="col-12">
+                 <button style="border-radius: 20px; font-family: kadwa; background-color: #FB6701; color: white; width: 100px; height: 40px; font-size: 20px; margin-left: 170px; padding-top: 4px;" type="submit" class="btn"> Next </button>
+              </div>
+
+            </form>
+
+          </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="./assets/photos/Resetpassword.png" class="img" style="width: 650px; height: 630px; margin-top: 0px; margin-left: 190px;">
+      </div>
+
+    </div>
+  </div> 
